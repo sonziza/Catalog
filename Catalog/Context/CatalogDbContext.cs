@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Catalog.Context
 {
-    class CatalogDbContext : DbContext
+    public class CatalogDbContext : DbContext
     {
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }

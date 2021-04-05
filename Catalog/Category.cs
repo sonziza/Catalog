@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Catalog
 {
-    class Category
+    public class Category
     {
         public int Id { get; set; }
         public string Name { get; set; }
